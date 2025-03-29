@@ -83,8 +83,8 @@
     printf("Código: %s\n", codigo_carta1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %e\n km²", area1);
-    printf("PIB: %e\n bilhões de reais", pib1);
+    printf("Área: %e km²\n", area1);
+    printf("PIB: %e bilhões de reais\n", pib1);
     printf("Número de pontos turísticos: %d\n\n", n_pontos_turisticos1);
     
     //Imprimindo carta 02
@@ -93,8 +93,8 @@
     printf("Código: %s\n", codigo_carta2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %e\n km²", area2);
-    printf("PIB: %e\n bilhões de reais", pib2);
+    printf("Área: %e km²\n", area2);
+    printf("PIB: %e bilhões de reais\n", pib2);
     printf("Número de pontos turísticos: %d\n\n", n_pontos_turisticos2);
     
 
