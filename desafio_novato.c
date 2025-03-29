@@ -24,52 +24,66 @@
 
     // Cadastrando a carta 01:
     printf("CADASTRANDO A PRIMEIRA CARTA\n");
+    
     printf("Digite o nome do estado: ");
     scanf("%19s", estado1);
     printf("Estado cadastrado: %s\n", estado1);
+    
     codigo_carta1[0] = 'A';
     codigo_carta1[1] = '0';
     codigo_carta1[2] = '1';
     codigo_carta1[3] = '\0';
     printf("Código da carta: %s\n", codigo_carta1);
+    
     printf("Digite o nome da cidade: ");
     scanf("%19s", cidade1);
     printf("Cidade cadastrada: %s\n", cidade1);
+    
     printf ("Digite o número populacional da cidade: ");
     scanf("%d", &populacao1);
     printf("População cadastrada: %d\n", populacao1);
+    
     printf("Digite a área da cidade: ");
     scanf("%f", &area1);
     printf("Área cadastrado: %e km²\n", area1);
+    
     printf("Digite o PIB da cidade: ");
     scanf("%f", &pib1);
     printf("PIB cadastrado: %e\n", pib1);
+    
     printf ("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &n_pontos_turisticos1);
     printf("Número de pontos turísticos cadastrado: %d\n\n", n_pontos_turisticos1);
 
     // Cadastrando a carta 02:
     printf("CADASTRANDO A SEGUNDA CARTA\n");
+    
     printf("Digite o nome do estado: ");
     scanf("%19s", estado2);
     printf("Estado cadastrado: %s\n", estado2);
+    
     codigo_carta2[0] = 'B';
     codigo_carta2[1] = '0';
     codigo_carta2[2] = '1';
     codigo_carta2[3] = '\0';
     printf("Código da carta: %s\n", codigo_carta2);
+    
     printf("Digite o nome da cidade: ");
     scanf("%19s", cidade2);
     printf("Cidade cadastrada: %s\n", cidade2);
+    
     printf ("Digite o número populacional da cidade: ");
     scanf("%d", &populacao2);
     printf("População cadastrada: %d\n", populacao2);
+    
     printf("Digite a área da cidade: ");
     scanf("%f", &area2);
     printf("Área cadastrado: %e km²\n", area2);
+    
     printf("Digite o PIB da cidade: ");
     scanf("%f", &pib2);
     printf("PIB cadastrado: %e\n", pib2);
+    
     printf ("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &n_pontos_turisticos2);
     printf("Número de pontos turísticos cadastrado: %d\n\n", n_pontos_turisticos2);
@@ -79,7 +93,7 @@
     
     //Imprimindo carta 01
     printf("Carta 1:\n");
-    printf("Estado: %19s\n", estado1);
+    printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigo_carta1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
@@ -89,7 +103,7 @@
     
     //Imprimindo carta 02
     printf("Carta 2:\n");
-    printf("Estado: %19s\n", estado2);
+    printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigo_carta2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
