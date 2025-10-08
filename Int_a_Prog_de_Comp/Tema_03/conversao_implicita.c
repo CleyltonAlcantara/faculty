@@ -1,3 +1,4 @@
+// Conversão explicita em C (casting)
 #include <stdio.h>
  
 int main() {
