@@ -12,7 +12,7 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h> //Necessário para usar o system("cls");
+#include <stdlib.h> //Necessário para usar o system("cls") para limpar tela;
 
     int main(){
     // Variáveis de cada atributo:
